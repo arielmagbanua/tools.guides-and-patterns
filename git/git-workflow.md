@@ -27,7 +27,7 @@ When evaluating a workflow for your team, it's most important that you consider 
 
     Every end of task, developers must commit their work and commit messages must be descriptive enough so that senior developers can know easily about your work on that specific commit. Avoid commiting large chunk of work or code, even in the case of single line of code the developer must commit it. This is to avoid data loss in case your machine will be damaged or corrupted and in case of extreme circumstance like fire.  
 
-    ![Commit](../images/justdoit.png "Just do it!")  
+    ![Commit](../docs/images/justdoit.png "Just do it!")  
 
 * __Code Review Before Merge__  
 
@@ -50,7 +50,7 @@ This workflow is based on [github workflow](https://guides.github.com/introducti
 3. Call the attention of the senior developer or the code review in charge to discuss and review your commits.
 4. Merge and deploy.
 
-![Close Small Team Git Workflow](../images/ClosedSmallTeamGitWorkflow.png "Close Small Team Git Workflow")  
+![Close Small Team Git Workflow](../docs/images/ClosedSmallTeamGitWorkflow.png "Close Small Team Git Workflow")  
 
 ### [Pros](#close-small-team-workflow-pros)
 
@@ -72,7 +72,7 @@ This workflow is based on [github workflow](https://guides.github.com/introducti
 4. Discuss and review the commits.
 5. Merge and deploy.
 
-![GitHub Workflow](../images/GitHubWorkflow.png "GitHub Workflow")  
+![GitHub Workflow](../docs/images/GitHubWorkflow.png "GitHub Workflow")  
 
 ### [Pros](#github-workflow-pros)  
 
