@@ -52,12 +52,12 @@ This workflow is based on [github workflow](https://guides.github.com/introducti
 
 ![Close Small Team Git Workflow](../images/ClosedSmallTeamGitWorkflow.png "Close Small Team Git Workflow")  
 
-### Pros  
+### [Pros](#close-small-team-workflow-pros)
 
 * Simple and lightweight.
 * Very good on close small teams (2 to 4 members within speaking distance).
 
-### Cons
+### [Cons](#close-small-team-workflow-cons)
 
 * Not good with very large teams.  
 * Not good with team where team members are situated remotely.
@@ -74,12 +74,12 @@ This workflow is based on [github workflow](https://guides.github.com/introducti
 
 ![GitHub Workflow](../images/GitHubWorkflow.png "GitHub Workflow")  
 
-### Pros  
+### [Pros](#github-workflow-pros)  
 
 * Simple and lightweight.
 * Very good on close small teams (2 to 4 members within speaking distance).
 * Very appropriate on very large and diverse team.
 
-### Cons  
+### [Cons](#github-workflow-cons)  
 
 * A little tidious to follow and take a bit of time to be used to.
