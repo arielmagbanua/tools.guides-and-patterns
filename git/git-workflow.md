@@ -64,7 +64,7 @@ This workflow is based on [github workflow](https://guides.github.com/introducti
 
 ## [GitHub Workflow](#github-workflow)  
 
-[Github Workflow](https://guides.github.com/introduction/flow/ "Github Workflow") is a lightweight, branch-based workflow that supports teams and projects where deployments are made regularly.
+[Github Workflow](https://guides.github.com/introduction/flow/ "Github Workflow") is a lightweight, branch-based workflow that supports teams and projects where deployments are made regularly. Download the PDF version [here](https://guides.github.com/pdfs/githubflow-online.pdf "Github Workflow PDF").
 
 1. Create needed branches typically one per team member and others for staging, production (master), and other feature branches. If working in a very large team allow forks on each team member and handle their commits via pull requests.
 2. Add commits.
