@@ -13,7 +13,7 @@
 
     Generally this is a bad practice and does not adhere to the principle of "__collaboration__" and definitely defeat the purpose git and version control in general.  
 
-    The following detailed   arguments against this practice:  
+    The following detailed   arguments against this practice:   
         * Almost impossible to track and code review commits.
         * Developers will have to check if there are newer commits to be pulled before they can commit.
         * Difficult to avoid data loss if bug is introduced and if there is a need to execute a rollback on certain commit.
@@ -22,7 +22,7 @@
 
     Every end of task, developers must commit their work and commit messages must be descriptive enough so that senior developers can know easily about your work on that specific commit. Avoid commiting large chunk of work or code, even in the case of single line of code the developer must commit it. This is to avoid data loss in case your machine will be damaged or corrupted and in case of extreme circumstance like fire.  
 
-    ![]  (../images/justdoit.png "Just do it!")  
+    ![Commit](../images/justdoit.png "Just do it!")  
 
 * __Code Review Before Merge__  
 
