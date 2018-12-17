@@ -12,3 +12,7 @@ Generally this is a bad practice and does not adhere to the principle of "__coll
     * Almost impossible to track and code review commits.
     * Developers will have to check if there are newer commits to be pulled before they can commit.
     * Difficult to avoid data loss if bug is introduced and if there is a need to execute a rollback on certain commit.
+
+* __Commit Every End of Task or Work__  
+Every end of task developers must commit their work. Avoid commiting large chunk of work or code, even in the case of single line of code the developer must commit it. This is to avoid data loss in case your machine will be damaged or corrupted and in case of extreme circumstance like fire.  
+[In case of fire!](../images/justdoit.png "In case of fire!")
