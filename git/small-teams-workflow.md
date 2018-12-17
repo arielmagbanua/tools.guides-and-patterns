@@ -16,3 +16,6 @@ Generally this is a bad practice and does not adhere to the principle of "__coll
 * __Commit Every End of Task or Work__  
 Every end of task developers must commit their work. Avoid commiting large chunk of work or code, even in the case of single line of code the developer must commit it. This is to avoid data loss in case your machine will be damaged or corrupted and in case of extreme circumstance like fire.  
 ![](../images/justdoit.png "Just do it!")
+
+* __Code Review Before Merge__  
+Senior developers should code review first the work of other branches and make sure they follow the standards set for the team before marging them in staging and production branches.
