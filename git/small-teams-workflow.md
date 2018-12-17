@@ -14,7 +14,7 @@ Generally this is a bad practice and does not adhere to the principle of "__coll
     * Difficult to avoid data loss if bug is introduced and if there is a need to execute a rollback on certain commit.
 
 * __Commit Every End of Task or Work__  
-Every end of task developers must commit their work. Avoid commiting large chunk of work or code, even in the case of single line of code the developer must commit it. This is to avoid data loss in case your machine will be damaged or corrupted and in case of extreme circumstance like fire.  
+Every end of task, developers must commit their work and commit messages must be descriptive enough so that senior developers can know easily about your work on that specific commit. Avoid commiting large chunk of work or code, even in the case of single line of code the developer must commit it. This is to avoid data loss in case your machine will be damaged or corrupted and in case of extreme circumstance like fire.  
 ![](../images/justdoit.png "Just do it!")
 
 * __Code Review Before Merge__  
