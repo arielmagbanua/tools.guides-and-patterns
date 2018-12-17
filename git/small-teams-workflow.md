@@ -45,10 +45,41 @@ When evaluating a workflow for your team, it's most important that you consider 
 
 This workflow is based on [github workflow](https://guides.github.com/introduction/flow/ "Github Workflow"). This is not a dogmatic workflow and feel free to modify and make improvements depending on the project, the team, or preferences.
 
+1. Create needed branches typically one per team member and others for staging, production (master), and other feature branches.
+2. Add commits.
+3. Call the attention of the senior developer or the code review in charge to discuss and review your commits.
+4. Merge and deploy.
+
 ![Close Small Team Git Workflow](../images/ClosedSmallTeamGitWorkflow.png "Close Small Team Git Workflow")  
+
+### Pros  
+
+* Simple and lightweight.
+* Very good on close small teams (2 to 4 members within speaking distance).
+
+### Cons
+
+* Not good with very large teams.  
+* Not good with team where team members are situated remotely.
 
 ## GitHub Workflow  
 
-[github workflow](https://guides.github.com/introduction/flow/ "Github Workflow") is a lightweight, branch-based workflow that supports teams and projects where deployments are made regularly.
+[Github Workflow](https://guides.github.com/introduction/flow/ "Github Workflow") is a lightweight, branch-based workflow that supports teams and projects where deployments are made regularly.
+
+1. Create needed branches typically one per team member and others for staging, production (master), and other feature branches. If working in a very large team allow forks on each team member and handle their commits via pull requests.
+2. Add commits.
+3. Open a Pull Request.
+4. Discuss and review the commits.
+5. Merge and deploy.
 
 ![GitHub Workflow](../images/GitHubWorkflow.png "GitHub Workflow")  
+
+### Pros  
+
+* Simple and lightweight.
+* Very good on close small teams (2 to 4 members within speaking distance).
+* Very appropriate on very large and diverse team.
+
+### Cons  
+
+* A little tidious to follow and take a bit of time to be used to.
