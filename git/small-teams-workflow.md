@@ -19,3 +19,9 @@ Every end of task developers must commit their work. Avoid commiting large chunk
 
 * __Code Review Before Merge__  
 Senior developers should code review first the work of other branches and make sure they follow the standards set for the team before marging them in staging and production branches.
+
+* __Don't Forget to Resolved All Conflicts__  
+Before pushing and building for production make sure after merge the source code should be free from conflicts.
+
+* __Mark and Tag Release Builds__  
+All release builds should be tagged properly or even create a new branch for it.
