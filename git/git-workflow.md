@@ -10,7 +10,7 @@ When evaluating a workflow for your team, it's most important that you consider 
 * Is it easy to undo mistakes and errors with this workflow?
 * Does this workflow impose any new unnecessary cognitive overhead to the team?
 
-## [Good Practices on Working With Git](#git-good-practice)  
+## [Best Practices on Working With Git](#git-best-practices)  
 
 * __Create and Provide Branches to Developers As Needed__  
 
