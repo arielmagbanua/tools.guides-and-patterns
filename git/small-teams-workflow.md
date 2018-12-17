@@ -1,8 +1,8 @@
-# Git Workflow
+# [Git workflow](#git-workflow)  
 
  A Git Workflow is a recipe or recommendation for how to use Git to accomplish work in a consistent and productive manner. Git workflows encourage users to leverage Git effectively and consistently. Git offers a lot of flexibility in how users manage changes. Given Git's focus on flexibility, there is no standardized process on how to interact with Git. When working with a team on a Git managed project, it’s important to make sure the team is all in agreement on how the flow of changes will be applied.
 
-## Successful Git workflow  
+## [Successful Git workflow](#successful-git-workflow)  
 
 When evaluating a workflow for your team, it's most important that you consider your team’s culture. You want the workflow to enhance the effectiveness of your team and not be a burden that limits productivity. Some things to consider when evaluating a Git workflow are:
 
@@ -10,7 +10,7 @@ When evaluating a workflow for your team, it's most important that you consider 
 * Is it easy to undo mistakes and errors with this workflow?
 * Does this workflow impose any new unnecessary cognitive overhead to the team?
 
-## Good Practices on Working With Git  
+## [Good Practices on Working With Git](#git-good-practice)  
 
 * __Create and Provide Branches to Developers As Needed__  
 
@@ -41,7 +41,7 @@ When evaluating a workflow for your team, it's most important that you consider 
 
     All release builds should be tagged properly or even create a new branch for it.
 
-## Close Samll Team Workflow  
+## [Close Samll Team Workflow](#close-small-team-workflow)  
 
 This workflow is based on [github workflow](https://guides.github.com/introduction/flow/ "Github Workflow"). This is not a dogmatic workflow and feel free to modify and make improvements depending on the project, the team, or preferences.
 
@@ -62,7 +62,7 @@ This workflow is based on [github workflow](https://guides.github.com/introducti
 * Not good with very large teams.  
 * Not good with team where team members are situated remotely.
 
-## GitHub Workflow  
+## [GitHub Workflow](#github-workflow)  
 
 [Github Workflow](https://guides.github.com/introduction/flow/ "Github Workflow") is a lightweight, branch-based workflow that supports teams and projects where deployments are made regularly.
 
