@@ -1,6 +1,6 @@
 # Git Workflow
 
- A Git Workflow is a recipe or recommendation for how to use Git to accomplish work in a consistent and productive manner. Git workflows encourage users to leverage Git effectively and     consistently. Git offers a lot of flexibility in how users manage changes. Given Git's focus on flexibility, there is no standardized process on how to interact with Git. When working with a team on a Git managed project, it’s important to make sure the team is all in agreement on how the flow of changes will be applied.
+ A Git Workflow is a recipe or recommendation for how to use Git to accomplish work in a consistent and productive manner. Git workflows encourage users to leverage Git effectively and consistently. Git offers a lot of flexibility in how users manage changes. Given Git's focus on flexibility, there is no standardized process on how to interact with Git. When working with a team on a Git managed project, it’s important to make sure the team is all in agreement on how the flow of changes will be applied.
 
 ## Successful Git workflow  
 
@@ -47,4 +47,8 @@ This workflow is based on [github workflow](https://guides.github.com/introducti
 
 ![Close Small Team Git Workflow](../images/ClosedSmallTeamGitWorkflow.png "Close Small Team Git Workflow")  
 
-## GitHub Workflow
+## GitHub Workflow  
+
+[github workflow](https://guides.github.com/introduction/flow/ "Github Workflow") is a lightweight, branch-based workflow that supports teams and projects where deployments are made regularly.
+
+![GitHub Workflow](../images/GitHubWorkflow.png "GitHub Workflow")  
