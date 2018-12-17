@@ -14,7 +14,6 @@
     Generally this is a bad practice and does not adhere to the principle of "__collaboration__" and definitely defeat the purpose git and version control in general.  
 
     The following detailed   arguments against this practice:  
-
         * Almost impossible to track and code review commits.
         * Developers will have to check if there are newer commits to be pulled before they can commit.
         * Difficult to avoid data loss if bug is introduced and if there is a need to execute a rollback on certain commit.
