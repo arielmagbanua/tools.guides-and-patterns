@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Git Workflows</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A presentation on GitHub Workflows.">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext"
+        rel="stylesheet">
+
+    <!-- CSS Base -->
+    <link rel="stylesheet" type='text/css' media='all' href="css/webslides.css">
+
+    <!-- Optional - CSS SVG Icons (Font Awesome) -->
+    <link rel="stylesheet" type="text/css" media="all" href="css/svg-icons.css">
+
+    <!-- FACEBOOK -->
+    <meta property="og:url" content="https://www.facebook.com/ariel.magbanua">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="GitHub Workflows">
+    <meta property="og:description" content="A presentation on GitHub Workflows.">
+    <meta property="og:updated_time" content="2018-12-18T16:54:27">
+    <meta property="og:image" content="images/profile_pic.jpg">
+
+    <!-- TWITTER -->
+    <!-- <meta name="twitter:card" content="summary_large_image"> -->
+    <meta name="twitter:site" content="@Ariel_Magbanua">
+    <meta name="twitter:creator" content="@Ariel_Magbanua">
+    <meta name="twitter:title" content="Ariel Magbanua">
+    <meta name="twitter:description" content="Software engineer, geek, bookworm, introvert, and a pilgrim in progress">
+    <meta name="twitter:image" content="images/profile_pic.jpg">
+
+    <!-- FAVICONS -->
+    <link rel="shortcut icon" sizes="32x32" href="images/fav-octo-32.png">
+    <link rel="shortcut icon" sizes="64x64" href="images/fav-octo-64.png">
+    <link rel="shortcut icon" sizes="120x120" href="images/fav-octo-120.png">
+
+    <!-- Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#333333">
+</head>
+
+<body>
+    <header role="banner">
+        <nav role="navigation">
+            <p class="logo"><a href="git-workflows.html" title="Git Workflows">Git Workflows</a></p>
+            <ul>
+                <li class="github">
+                    <a rel="external" href="https://github.com/arielmagbanua" title="Github">
+                        <svg class="fa-github">
+                            <use xlink:href="#fa-github"></use>
+                        </svg>
+                        <em>Ariel Magbanua</em>
+                    </a>
+                </li>
+                <li class="twitter">
+                    <a rel="external" href="https://twitter.com/Ariel_Magbanua" title="Twitter">
+                        <svg class="fa-twitter">
+                            <use xlink:href="#fa-twitter"></use>
+                        </svg>
+                        <em>@Ariel_Magbanua</em>
+                    </a>
+                </li>
+                <!--  <li class="dribbble"><a rel="external" href="http://dribbble.com/webslides" title="Dribbble"><svg class="fa-dribbble"><use xlink:href="#fa-dribbble"></use></svg> <em>webslides</em></a></li> -->
+            </ul>
+        </nav>
+    </header>
+
+    <main role="main">
+        <article id="webslides">
+            <section class="aligncenter">
+                <!--.wrap = container (width: 90%) -->
+                <div class="wrap size-50">
+                    <h2 class="text-landing">Git Workflows</h2>
+                    <p class="text-intro">Best Practices and Guidelines</p>
+                    <nav class="aligncenter">
+                        <ul>
+                            <li><a href="https://twitter.com/Ariel_Magbanua">Twitter</a></li>
+                            <li><a href="https://github.com/arielmagbanua/my-guides-and-patterns">Github</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </section>
+
+            <section>
+                <div class="wrap size-50">
+                    <h2><strong>What is Git Workflow?</strong></h2>
+                    <p class="text-intro">
+                        A Git Workflow is a recipe or recommendation for how to use Git to accomplish work in a
+                        consistent and productive manner. Git workflows encourage users to leverage Git effectively and
+                        consistently.
+                    </p>
+                </div>
+                <!-- .end .wrap -->
+            </section>
+
+            <section>
+                <!--.wrap = container (width: 90%) -->
+                <div class="wrap size-60">
+                    <h3><strong>Successful Git workflow</strong> You want the workflow to enhance the effectiveness of
+                        your team and not be a burden that limits productivity.</h3>
+                    <hr>
+                    <div class="bg-white shadow">
+                        <ul class="flexblock reasons">
+                            <li>
+                                <h2>Does this workflow scale with team size?</h2>
+                            </li>
+                            <li>
+                                <h2>Is it easy to undo mistakes and errors with this workflow?</h2>
+                            </li>
+                            <li>
+                                <h2>Does this workflow impose any new unnecessary cognitive overhead to the team?</h2>
+                            </li>
+                        </ul>
+                    </div> <!-- .end .bg-white shadow -->
+                </div>
+                <!-- .end .wrap -->
+            </section>
+
+            <section>
+                <!--.wrap = container (width: 90%) -->
+                <div class="wrap aligncenter">
+                    <h2>Best Practices to Consider</h2>
+                </div>
+                <!-- .end .wrap -->
+            </section>
+
+            <section>
+                <div class="wrap size-50">
+                    <h2><strong>Create and Provide Branches to Developers As Needed</strong></h2>
+                    <p class="text-intro">
+                        Each team member must have their own branches where they can work simulatneously with other
+                        developers.
+                        This allows the developer to commit their own work and unit test their work safely without
+                        affecting others work.
+                    </p>
+                </div>
+                <!-- .end .wrap -->
+            </section>
+
+            <section>
+                <div class="wrap size-50">
+                    <h2><strong>Avoid Developers Committing in a Single Branch</strong></h2>
+                    <ul class="flexblock reasons">
+                        <li>
+                            <p class="text-intro">
+                                Almost impossible to track and code review commits.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="text-intro">
+                                Developers will have to check if there are newer commits to be pulled before they can
+                                commit.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="text-intro">
+                                Difficult to avoid data loss if bug is introduced and if there is a need to execute a
+                                rollback on certain commit.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <!-- .end .wrap -->
+            </section>
+
+            <section>
+                <div class="wrap size-50">
+                    <h2><strong>Commit Every End of Task or Work</strong></h2>
+                    <p class="text-intro">
+                        Every end of task, developers must commit their work and commit messages must be descriptive
+                        enough so that senior developers can know easily about your work on that specific commit.
+                    </p>
+
+                    <img src="images/justdoit.png">
+                </div>
+                <!-- .end .wrap -->
+            </section>
+
+            <section>
+                <div class="wrap size-50">
+                    <h2><strong>Code Review Before Merge</strong></h2>
+                    <p class="text-intro">
+                        Senior developers should code review first the work of other branches and make sure they follow
+                        the standards set for the team before marging them in staging and production branches.
+                    </p>
+                </div>
+                <!-- .end .wrap -->
+            </section>
+
+            <section>
+                <div class="wrap size-50">
+                    <h2><strong>Don't Forget to Resolved All Conflicts</strong></h2>
+                    <p class="text-intro">
+                        Before pushing and building for production make sure after merge the source code should be free
+                        from conflicts.
+                    </p>
+                </div>
+                <!-- .end .wrap -->
+            </section>
+
+            <section>
+                <div class="wrap size-50">
+                    <h2><strong>Mark and Tag Release Builds</strong></h2>
+                    <p class="text-intro">
+                        All release builds should be tagged properly or even create a new branch for it.
+                    </p>
+                </div>
+                <!-- .end .wrap -->
+            </section>
+
+            <section>
+                <div class="wrap size-50">
+                    <h2><strong>Close Small Team Workflow</strong></h2>
+                    <p class="text-intro">
+                        This workflow is based on GitHub Workflow. This is not a dogmatic workflow and feel free to
+                        modify and make improvements depending on the project, the team, or preferences.
+                    </p>
+
+                    <img src="images/ClosedSmallTeamGitWorkflow.png">
+                </div>
+                <!-- .end .wrap -->
+            </section>
+
+            <section>
+                <div class="wrap size-50">
+                    <h2><strong>Close Small Team Workflow</strong></h2>
+                    <ul class="flexblock reasons">
+                        <li>
+                            <p class="text-intro">
+                                Create needed branches typically one per team member and others for staging, production
+                                (master), and other feature branches.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="text-intro">
+                                Add commits.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="text-intro">
+                                Call the attention of the senior developer or the code review in charge to discuss and
+                                review your commits.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="text-intro">
+                                Merge and deploy.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <!-- .end .wrap -->
+            </section>
+
+            <section>
+                <div class="wrap size-50">
+                    <h2><strong>Close Small Team Workflow | Pros</strong></h2>
+                    <ul class="flexblock reasons">
+                        <li>
+                            <p class="text-intro">
+                                Simple and lightweight.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="text-intro">
+                                Very good on close small teams (2 to 4 members within speaking distance).
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <!-- .end .wrap -->
+            </section>
+
+            <section>
+                <div class="wrap size-50">
+                    <h2><strong>Close Small Team Workflow | Cons</strong></h2>
+                    <ul class="flexblock reasons">
+                        <li>
+                            <p class="text-intro">
+                                Not good with very large teams.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="text-intro">
+                                Not good with team where team members are situated remotely.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <!-- .end .wrap -->
+            </section>
+
+            <section>
+                <div class="wrap size-50">
+                    <h2><strong>GitHub Workflow</strong></h2>
+                    <img src="images/GitHubWorkflow.png">
+                </div>
+                <!-- .end .wrap -->
+            </section>
+
+            <section>
+                <div class="wrap size-50">
+                    <h2><strong>GitHub Workflow</strong></h2>
+                    <ul class="flexblock reasons">
+                        <li>
+                            <p class="text-intro">
+                                Create needed branches typically one per team member and others for staging, production
+                                (master), and other feature branches. If working in a very large team allow forks on
+                                each team member and handle their commits via pull requests.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="text-intro">
+                                Add commits.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="text-intro">
+                                Open a Pull Request.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="text-intro">
+                                Discuss and review the commits.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="text-intro">
+                                Merge and deploy.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <!-- .end .wrap -->
+            </section>
+
+            <section>
+                <div class="wrap size-50">
+                    <h2><strong>GitHub Workflow | Pros</strong></h2>
+                    <ul class="flexblock reasons">
+                        <li>
+                            <p class="text-intro">
+                                Simple and lightweight.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="text-intro">
+                                Very good on close small teams (2 to 4 members within speaking distance).
+                            </p>
+                        </li>
+                        <li>
+                            <p class="text-intro">
+                                Very appropriate on very large and diverse team.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <!-- .end .wrap -->
+            </section>
+
+            <section>
+                <div class="wrap size-50">
+                    <h2><strong>GitHub Workflow | Cons</strong></h2>
+                    <ul class="flexblock reasons">
+                        <li>
+                            <p class="text-intro">
+                                A little tidious to follow and take a bit of time to be used to.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <!-- .end .wrap -->
+            </section>
+        </article>
+    </main>
+
+    <!-- Required -->
+    <script src="js/webslides.js"></script>
+
+    <!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
+    <script defer src="js/svg-icons.js"></script>
+
+    <script>
+        window.ws = new WebSlides();
+    </script>
+</body>
+
+</html>
