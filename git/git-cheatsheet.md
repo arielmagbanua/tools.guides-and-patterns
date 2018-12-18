@@ -1,4 +1,4 @@
-# [Git Cheat Sheets](#git-cheat-sheets)
+# [Git Cheat Sheet](#git-cheat-sheet)
 
 ## [Basic Git Guides](#git-basic-guides)
 
