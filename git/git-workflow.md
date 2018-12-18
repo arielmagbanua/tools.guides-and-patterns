@@ -41,7 +41,7 @@ When evaluating a workflow for your team, it's most important that you consider 
 
     All release builds should be tagged properly or even create a new branch for it.
 
-## [Close Samll Team Workflow](#close-small-team-workflow)  
+## [Close Small Team Workflow](#close-small-team-workflow)  
 
 This workflow is based on [github workflow](https://guides.github.com/introduction/flow/ "Github Workflow"). This is not a dogmatic workflow and feel free to modify and make improvements depending on the project, the team, or preferences.
 
