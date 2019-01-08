@@ -1,0 +1,46 @@
+---
+ip: "192.168.10.10"
+memory: 2048
+cpus: 1
+provider: virtualbox
+
+authorize: ~/.ssh/id_rsa.pub
+
+keys:
+    - ~/.ssh/id_rsa
+
+folders:
+    - map: D:\Workspace\PHP
+      to: /home/vagrant/Code
+
+sites:
+    - map: parapo.test
+      to: /home/vagrant/Code/parapo/public
+    
+    - map: davao.test
+      to: /home/vagrant/Code/davao_app/public
+      
+    - map: arielpolymer.test
+      to: /home/vagrant/Code/awts/app
+    
+    - map: mantis.test
+      to: /home/vagrant/Code/mantis
+      
+    - map: dev.test
+      to: /home/vagrant/Code/dev-test
+
+databases:
+    - homestead
+
+# blackfire:
+#     - id: foo
+#       token: bar
+#       client-id: foo
+#       client-token: bar
+
+# ports:
+#     - send: 50000
+#       to: 5000
+#     - send: 7777
+#       to: 777
+#       protocol: udp
